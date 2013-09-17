@@ -129,7 +129,6 @@ public class MainFrame{
 		
 		/*输入框*/
 		mInputLine = new Text(mWindow, SWT.SINGLE|SWT.BORDER);
-		mInputLine.setText("http://cl.cn.mu");
 		GridData data = new GridData(GridData.FILL_HORIZONTAL);
 		data.grabExcessHorizontalSpace = true;
 		mInputLine.setLayoutData(data);
